@@ -1,0 +1,109 @@
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1676166013075-419bb74209c6?q=80&w=1422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #aaeaec;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+#playPauseButton img {
+    width: 40px;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 120px;
+}
+
+h1 {
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.8);
+    border: 3px solid black;
+    padding: 20px;
+    font-family: "Pacifico", cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.christmas {
+    background-color: rgba(251, 248, 249, 0.7);
+    width: 200px;
+    height: 300px;
+    margin-top: 60px;
+    border: 3px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+}
+
+.red {
+    font-family: "Pacifico", cursive;
+    border: none;
+    font-size: 60px;
+    color: #dd2bf5;
+}
+
+@media all and (max-width: 800px) {
+    h1,
+    .red {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+        font-size: 30px;
+    }
+    .christmas {
+        width: 150px;
+        height: 250px;
+        margin-top: 60px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    h1,
+    .red {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+        font-size: 20px;
+    }
+    .christmas {
+        width: 100px;
+        height: 200px;
+        margin-top: 60px;
+    }
+}

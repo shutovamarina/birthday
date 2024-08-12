@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat&family=Pacifico&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="heading">
+        <h1>День рождения Марины...</h1>
+    </div>
+    <div>
+        <button id="playPauseButton"><img src="play.png" alt="play button"></button>
+        <audio src="song.mp3" loop id="myAudio" loop="loop" autoplay="allowed"></audio>
+    </div>
+
+    <div class="container">
+        <div class="christmas">
+            <div class="block">
+                <h4 class="days"></h4>
+                <h3>ДНЕЙ</h3>
+            </div>
+        </div>
+        <div class="christmas">
+            <div class="block">
+                <h4 class="hours"></h4>
+                <h3>ЧАСОВ</h3>
+            </div>
+        </div>
+        <div class="christmas">
+            <div class="block">
+                <h4 class="minutes"></h4>
+                <h3>МИНУТ</h3>
+            </div>
+        </div>
+        <div class="christmas">
+            <div class="block">
+                <h4 class="seconds"></h4>
+                <h3>СЕКУНД</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
